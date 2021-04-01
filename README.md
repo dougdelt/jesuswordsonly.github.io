@@ -10,4 +10,4 @@ The "first commit" is exactly this retrieval, except with a README.md file.
 
 The Wayback Machine archive is missing, at the very least, some key things such as the JWO book chapters in pdf format. However, the HTML formatted chapters and appendices were retrieved. Yet the Bibliography and Index of Topics pages were only in PDF and were not archived. 
 
-The only file from subsequent Wayback Machine archives that contains additional info is 33-sabbathcommand.html.
+The only file from subsequent Wayback Machine archives that contains additional info is recommendedreading/33-sabbathcommand.html.
