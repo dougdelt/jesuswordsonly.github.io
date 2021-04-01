@@ -1,0 +1,173 @@
+/* @group NAVBAR */
+
+.menubar {
+	width: 100%;
+	margin: 0px;
+	height: 45px;
+}
+
+#navmenu {
+	height: 40px;
+	padding: 5px 0px 0px 8px;
+	margin: 0;
+	position: relative;
+	z-index: 10000;
+	float: none;
+}
+
+#navmenu ul {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navmenu ul li {
+	position: relative;
+	margin: 0;
+}
+
+/*PARENT MENU*/
+
+#navmenu a {
+	float: left;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 15px;
+}
+
+/*PARENT MENU ITEM HOVER*/
+
+#navmenu li a:hover {
+	height: 40px;
+}
+
+/*ALL LISTS*/
+
+#navmenu li {
+	float: left;
+	padding: 0;
+	background: none;
+}
+
+#navmenu ul ul a {
+	background: none;
+}
+
+/*SUBLEVEL TEXT STYLES*/
+
+#navmenu li li a {
+	font-weight: normal;
+	padding: 0;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 5px;
+}
+
+#navmenu ul ul a {
+	display: block;
+	text-decoration: none;
+	text-transform: none;
+}
+
+#navmenu li li {
+	padding: 0;
+	background: none;
+	/*DONT SHOW THE BACKGROUND IMAGE*/
+}
+
+/*SUBLEVEL POSITIONING*/
+
+#navmenu li li {
+	float: left;
+	padding: 0;
+}
+
+
+
+#navmenu li:hover, #navmenu li.iehover {
+	left: 0;
+}
+
+/*SUBLEVEL HOVER STYLES*/
+
+#navmenu ul ul a:hover {
+	background: none;
+	height: 26px;
+	line-height: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#navmenu li ul {
+	top: 39px;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	font-weight: normal;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+
+/* NO SUBLEVEL ACTIVE STYLES */
+#navmenu ul li.active ul li a,
+#navmenu ul li.active ul li,
+#navmenu ul li.active ul li a:hover,
+#navmenu ul li.active ul li.hover {
+	background-image: none;
+}
+/*SUBLEVEL PARENT INDICATORS*/
+
+
+#navmenu ul li ul li a.child,
+#navmenu ul li ul li a.child:hover {
+	background: url(../images/arrow_right.gif) 100% 50% no-repeat;
+}
+
+#navmenu ul li.active ul li a.child {
+	background: url(../images/arrow_right.gif) 100% 50% no-repeat;
+}
+
+
+#navmenu ul li ul li a:hover {
+	background-image: none;
+}
+
+/* HIDE OTHER LISTS FROM IE */
+
+#navmenu li:hover ul ul, 
+#navmenu li:hover ul ul ul,
+#navmenu li:hover ul ul ul ul,  
+#navmenu li.iehover ul ul, 
+#navmenu li.iehover ul ul ul, 
+#navmenu li.iehover ul ul ul ul {
+	left: -999em;
+}
+
+#navmenu li:hover ul, 
+#navmenu li li:hover ul, 
+#navmenu li li li:hover ul, 
+#navmenu li li li li:hover ul,
+#navmenu li.iehover ul, 
+#navmenu li li.iehover ul, 
+#navmenu li li li.iehover ul,
+#navmenu li li li li.iehover ul {
+	z-index: 100;
+	left: 0;
+}
+
+/* BECAUSE IE DOESNT UNDERSTAND CSS EVEN IN 2007 */
+
+#navmenu li.iehover ul li.iehover {
+	background: #476c94;
+}
+
+/* @end */

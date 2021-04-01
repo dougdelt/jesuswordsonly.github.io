@@ -1,0 +1,9 @@
+#navmenu a {
+	line-height: 38px;
+}
+div.module div div, div.moduleS1 div div, div.moduleS2 div div, div.moduleS3 div div, div.moduleS4 div div, div.moduleS4 div div, div.module_text div div, div.module_menu div div {height:1%;}
+#mainbody {
+z-index: 800;
+position: relative;
+height: 1%;
+}

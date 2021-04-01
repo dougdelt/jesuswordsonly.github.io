@@ -1,0 +1,905 @@
+/* @group Global Reset */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+html, body, form, fieldset {
+	margin: 0;
+	padding: 0;
+}
+html { /* this is a hack to force scrollbars on at all times so that the page does not jump when going from short to long pages */ height: 100%; margin-bottom: 1px;}
+
+a img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6, p, pre,blockquote, ul, ol, dl, address {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-position: inside;
+}
+pre {
+	font-size: 13px;
+}
+/* Miscellaneous conveniences: */
+
+form label {
+	cursor: pointer;
+}
+
+fieldset {
+	border: none;
+}
+
+/* Form field text-scaling */
+
+input, select, textarea {
+	font-size: 100%;
+}
+
+a:focus {
+	outline: none;
+}
+
+/* @end */
+
+/* @group Typography */
+
+
+
+/* Basic Typography */
+
+td#maincol ol,
+td#maincol ul {
+	margin-left: 20px;
+}
+
+h1 {
+	line-height: 145%;
+	padding: 0px;
+	letter-spacing: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+	line-height: 145%;
+	padding: 0px;
+	letter-spacing: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3 {
+	line-height: 145%;
+	padding: 0px;
+	letter-spacing: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h4 {
+	line-height: 145%;
+	padding: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+
+/* EXTRA STYLES */
+
+p.warn {
+    background: #FFF7C0 url(../images/warn.png) center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+    text-align: left;
+    padding: 5px 20px 5px 45px;
+    border-top: 2px solid #F7D229;
+    border-bottom: 2px solid #F7D229;
+}
+
+p.alert {
+    background: #FBEEF1 url(../images/exc.png) center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+    text-align: left;
+    padding: 5px 20px 5px 45px;
+    border-top: 2px solid #FEABB9;
+    border-bottom: 2px solid #FEABB9;
+}
+
+p.info {
+    background: #F8FAFC url(../images/info.png) center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+    text-align: left;
+    padding: 5px 20px 5px 45px;
+    border-top: 2px solid #B5D4FE;
+    border-bottom: 2px solid #B5D4FE;
+}
+
+
+
+/*-----SPECIAL LIST STYLE (CHANGE OR ADD ANOTHER)-----*/
+
+ul.checklist li {
+	list-style: none;
+	line-height: 16px;
+	padding: 2px 0px 2px 18px;
+	background: url(../images/tick.png) no-repeat left center;
+	list-style-position: outside;
+}
+
+ul.checklist a {
+	text-decoration: underline;
+	padding: 1px;
+}
+
+ul.checklist a:hover {
+	text-decoration: none;
+	padding: 1px;
+}
+
+/*-----BLOCKQUOTE STYLE-----*/
+
+blockquote {
+	padding: 10px;
+	font-style: italic;
+}
+
+div.code {
+	padding: 10px;
+	text-decoration: none;
+	font: normal normal normal 11px "Courier New", Courier, mono;
+}
+
+/* @end */
+
+/* @group Header */
+
+/* CSS for Header Text */
+
+
+
+#header_text h1, #header_text h1 a {
+	padding-left: 15px;
+	padding-top: 30px;
+	text-decoration: none;
+	letter-spacing: -1px;
+}
+
+#header_text h2 {
+	padding: 0px 0px 0px 35px;
+}
+
+#header_text .inside {
+	padding: 0;
+	margin: 0;
+}
+
+/* CSS for Header Image */
+
+
+
+#header_graphic h1 {
+	text-indent: -6000em;
+}
+
+#header_graphic .inside {
+	padding: 0;
+	margin: 0;
+}
+
+#header_graphic h1 a {
+	display: block;
+	text-indent: -6000em;
+}
+
+#header_graphic h2 {
+	text-indent: -6000em;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+	font-size: 0;
+}
+
+#header_graphic .inside {
+	padding: 0;
+	margin: 0;
+}
+
+#newsflash {
+	float: right;
+	overflow: hidden;
+	position: relative;
+	top: 7px;
+	left: -30px;
+	line-height: 145%;
+}
+
+/* @end Header*/
+
+/* @group Showcase */
+
+#showcasetop {
+	width: 948px;
+	margin: 0px auto;
+	position: relative;
+	height: 7px;
+	line-height: 7px;
+}
+
+#showcase {
+	width: 948px;
+	margin: 0px auto;
+	position: relative;
+}
+#showcase .inside {
+	padding: 6px;
+}
+
+
+.bottom_top {
+	height: 16px;
+	width: 946px;
+	margin: 10px auto 0px auto;
+}
+#bottom {
+	padding: 5px 10px 5px 10px;
+}
+
+
+/* @end */
+
+
+/* @group Mainbody */
+
+
+#main-wrapper {
+	width: 956px;
+	margin: 0px auto;
+}
+
+#mainbody {
+	width: 950px;
+	margin: 0px auto;
+}
+#breadcrumbs {
+	margin: 4px auto 6px auto;
+	padding: 4px;
+}
+td#leftcol {}
+td#leftcol .inside {margin: 4px;}
+
+td#rightcol {}
+td#rightcol .inside {margin: 4px;}
+
+td#maincol {padding: 0px 8px;}
+
+/* @end */
+
+
+/* @group Footer */
+
+#footer {
+	width: 956px;
+	height: 35px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+#footer p {
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+}
+
+#footer a, #footer a.mainlevel {
+	background-image: none;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#footer table {
+	text-align: center;
+}
+
+
+/* @end */
+
+
+/* @group Modules */
+
+/* Newsflash */
+#newsflash .moduletable h3,
+#newsflash .moduletableS1 h3,
+#newsflash .moduletableS2 h3,
+#newsflash .moduletableS3 h3 {
+	font-variant: normal;
+	font-weight: normal;
+	margin: 0;
+	background-image: none;
+	text-indent: 4px;
+}
+
+/* Default Module Style - bordered - */
+div.module,
+div.module_menu,
+div.module_text {
+	margin: 4px 2px 10px 2px;
+}
+div.module div,
+div.module_menu div,
+div.module_text div {}
+
+div.module div div,
+div.module_menu div div,
+div.module_text div div {}
+
+div.module div div div,
+div.module_menu div div div,
+div.module_text div div div {
+	padding: 5px 10px 10px 10px;
+}
+div.module div div div div,
+div.module_menu div div div div,
+div.module_text div div div div {
+	background: transparent none;
+	padding: 0;
+}
+div.module h3,div.module_menu h3,div.module_text h3 {
+	padding: 0px 0px 3px 0px;
+	margin: 0px 0px 5px 0px;
+	line-height: 100%;
+	text-indent: 10px;
+	font-weight: normal;
+}
+
+
+
+
+
+/* Module Unstyled */
+div.module-none {margin-bottom: 10px;background: none;}
+div.module-none div {background: none;}
+div.module-none div div {background: none;}
+div.module-none div div div {background: none;padding: 0px;margin: 0px;}
+div.module-none div div div div {background: transparent none;padding: 0;}
+div.module-none h3 {margin: 10px 0;padding: 0;line-height: 100%;height: auto;margin: 0 0 5px 0;font-weight: normal;text-indent: 15px;font-size: 18px;font-style: normal;border: none;}
+
+/* Latest News */
+
+ul.latestnews, ul.latestnewsS1, ul.latestnewsS2, ul.latestnewsS3, ul.latestnewsS4, ul.latestnewsS5, ul.latestnews-text,ul.latestnews-menu,ul.mostread, ul.mostreadS1, ul.mostreadS2, ul.mostreadS3, ul.mostreadS4, ul.mostreadS5, ul.menu {
+	list-style: none;
+}
+
+ul.latestnews li,
+ul.mostread li,
+ul.latestnewsS1 li,
+ul.mostreadS1 li,
+ul.latestnewsS2 li,
+ul.mostreadS2 li,
+ul.latestnewsS3 li,
+ul.mostreadS3 li,
+ul.menu li {
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	white-space: normal;
+}
+
+
+/* showcase */
+#showcase div.moduletable ul,
+#showcase div.moduletableS1 ul,
+#showcase div.moduletableS2 ul,
+#showcase div.moduletableS3 ul,
+/* bottom */
+#bottom div.moduletable ul,
+#bottom div.moduletableS1 ul,
+#bottom div.moduletableS2 ul,
+#bottom div.moduletableS3 ul {
+	list-style: none;
+}
+
+/* showcase */
+#showcase div.moduletable li,
+#showcase div.moduletableS1 li,
+#showcase div.moduletableS2 li,
+#showcase div.moduletableS3 li,
+/* bottom */
+#bottom div.moduletable li,
+#bottom div.moduletableS1 li,
+#bottom div.moduletableS2 li,
+#bottom div.moduletableS3 li {
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	white-space: normal;
+}
+
+
+
+/* bottom */
+#bottom div.moduletable h3,
+#bottom div.moduletableS1 h3,
+#bottom div.moduletableS2 h3,
+#bottom div.moduletableS3 h3,
+/* showcase */
+#showcase div.moduletable h3,
+#showcase div.moduletableS1 h3,
+#showcase div.moduletableS2 h3,
+#showcase div.moduletableS3 h3
+{margin-bottom: 4px;padding: 0px;background-image: none;text-indent: 0px;font-weight: normal;font-style: normal;line-height: 120%;}
+
+/* Showcase Content Headings */
+
+#showcase td.contentheading,
+#showcase td.contentheadingS1,
+#showcase td.contentheadingS2,
+#showcase td.contentheadingS3,
+#showcase a.contentpagetitle,
+#showcase a.contentpagetitleS1,
+#showcase a.contentpagetitleS2,
+#showcase a.contentpagetitleS3
+{padding: 0px;margin: 0px 0px 0px 8px;text-decoration: none;line-height: 120%;border: none;}
+
+
+/* Bottom Content Headings */
+
+#bottom td.contentheading,
+#bottom td.contentheadingS1,
+#bottom td.contentheadingS2,
+#bottom td.contentheadingS3,
+#bottom a.contentpagetitle,
+#bottom a.contentpagetitleS1,
+#bottom a.contentpagetitleS2,
+#bottom a.contentpagetitleS3
+{padding: 0px;margin: 0px 0px 0px 8px;text-decoration: none;line-height: 120%;border: none;}
+
+
+
+/* Left/Right Content Headings */
+
+#leftcol td.contentheading,
+#leftcol td.contentheadingS1,
+#leftcol td.contentheadingS2,
+#leftcol td.contentheadingS3,
+#leftcol a.contentpagetitle,
+#leftcol a.contentpagetitleS1,
+#leftcol a.contentpagetitleS2,
+#leftcol a.contentpagetitleS3,
+#rightcol td.contentheading,
+#rightcol td.contentheadingS1,
+#rightcol td.contentheadingS2,
+#rightcol td.contentheadingS3,
+#rightcol a.contentpagetitle,
+#rightcol a.contentpagetitleS1,
+#rightcol a.contentpagetitleS2,
+#rightcol a.contentpagetitleS3
+{padding: 4px;margin:0px;text-decoration: none;line-height: 120%;border: none;}
+
+
+a.mainlevel {
+	line-height: 20px;
+}
+
+a.sublevel {
+	padding-left: 4px;
+}
+
+a.sublevel.img {
+}
+
+/* Banner */
+
+div#banner {
+	margin: 0px auto 10px auto;
+	text-align: center;
+}
+
+.moduletable-banner {
+	text-align: center;
+	margin: 5px auto;
+}
+
+/* @end */
+
+/* @group Joomla Styles */
+
+/* Tables */
+
+table.contentpaneopen {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+table.blog table.contentpaneopen {
+	white-space: normal;
+}
+
+table.contentpaneopen,
+table.contentpaneopenS1,
+table.contentpaneopenS2,
+table.contentpaneopenS3,
+table.contentpane,
+table.blog {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div.blog_more {
+	padding: 10px;
+}
+
+div.blog_more strong {
+	position: relative;
+	top: -5px;
+}
+
+div.blog_more ul {
+	border-top: 1px solid #dadacc;
+	list-style: none;
+}
+
+div.blog_more ul li {
+	padding: 0;
+	margin: 0;
+}
+
+div.blog_more ul li a {
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 28px;
+	padding: 4px;
+}
+
+div.blog_more ul li a:hover {
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 28px;
+	padding: 4px;
+}
+
+
+/* Polls Module */
+
+table.pollstableborder {
+	width: 100%;
+	text-align: left;
+}
+
+.smalldark {
+	white-space: nowrap;
+}
+
+table.pollstableborder td.sectiontableentry1 {
+	padding: 2px;
+}
+
+table.pollstableborder td.sectiontableentry2 {
+	padding: 2px;
+}
+
+/* Polls Results */
+
+table.pollstableborder td.sectiontableheader {
+	padding: 8px;
+	border: none;
+}
+
+td.sectiontableheader img {
+	display: none;
+}
+
+td.sectiontableheader a {
+	text-decoration: none;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	padding: 4px;
+	border: none;
+}
+
+table.pollstableborder tr.sectiontableentry2 td {
+	padding: 4px;
+	border: none;
+}
+
+/* Category Tables */
+
+td.sectiontableheader {
+	padding: 4px 10px;
+	font-size: 13px;
+}
+
+tr.sectiontableentry1 td,
+td.sectiontableentry1 {
+	padding: 4px;
+}
+
+tr.sectiontableentry2 td,
+td.sectiontableentry2 {
+	padding: 4px;
+}
+
+.sectiontableentry1 a,
+.sectiontableentry2 a {
+	text-decoration: none;
+}
+
+li a.category {
+	text-decoration: underline;
+}
+
+table.contentpane tr td ul {
+	list-style: none;
+}
+
+/* Print-PDF-EMail */
+
+body.contentpane {
+	background: #fff;
+	margin: 25px;
+}
+
+span.pagenav {
+}
+
+span.small,.createdate,.modifydate,span.description {
+	font-size: 11px;
+}
+
+td.modifydate {
+	line-height: 30px;
+}
+
+div.mosimage {
+	margin: 10px;
+}
+
+div.mosimage_caption {
+	font: 10px/12px Arial, Helvetica, Geneva, sans-serif;
+	padding-bottom: 5px;
+}
+
+div.mosimage img {
+	padding: 5px;
+}
+
+/* Content Headings */
+
+a.contentpagetitle {
+	font-weight: normal;
+	white-space: normal;
+	line-height: 145%;
+	padding: 4px 0px 0px 0px;
+	margin-bottom: 6px;
+	text-decoration: none;
+}
+td.contentheading {
+	border-bottom: 1px solid #e9e5d0;
+}
+.contentheading a {
+	text-decoration: none;
+}
+.contentheading {
+	font-weight: normal;
+	white-space: normal;
+	line-height: 120%;
+	padding: 4px 0px 0px 0px;
+	font-style: normal;
+}
+
+.componentheading {
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 8px;
+	padding: 6px 0px 7px 0px;
+}
+
+a.readon {
+	text-decoration: underline;
+	float: right;
+	padding: 0px;
+	margin: 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a.readon:hover {
+	text-decoration: none;
+}
+
+.pagenav_next a,.pagenav_prev a {
+	margin: 15px 15px 0px 0px;
+	padding: 1px 4px;
+	text-align: center;
+	text-decoration:none;
+	font: 12px Arial, Helvetica, Geneva, sans-serif;
+}
+
+div.back_button a {
+	margin: 15px 15px 0px 0px;
+	padding: 1px 2px;
+	text-align: center;
+	text-decoration:none;
+	float: right;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div.pagenavbar a, div.pagenavbar {
+	text-decoration: none;
+	font-size: 11px;
+}
+
+table.contenttoc th {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	padding: 4px;
+}
+
+table.contenttoc {
+	margin: 4px;
+}
+
+table.contenttoc td {
+	font-size: 14px;
+	padding: 2px 8px;
+}
+
+table.contenttoc a.toclink {
+	font-size: 12px;
+}
+div.pagenavcounter {
+	font-weight: bold;
+	padding: 5px 0px;
+}
+
+/* @end */
+
+/* @group Joomla 1.5 */
+
+/*Additional 1.5 Stuff */
+
+/*Added _menu and _text module suffix styles above for better cooperation of default content */
+
+div.banneritem a,
+div.banneritemS1 a,
+div.banneritemS2 a,
+div.banneritemS3 a,
+div.banneritem_text a {
+	font: 11px/16px Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+div.banneritem,
+div.banneritemS1,
+div.banneritemS2,
+div.banneritemS3,
+div.banneritem_text {
+	font: 11px/12px Arial, Helvetica, Geneva, sans-serif;
+}
+
+#form-login ul li {
+	list-style: none;
+}
+
+td.buttonheading {
+	vertical-align: top;
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+td.buttonheading img {
+	padding: 0;
+	margin: 1px;
+}
+
+td.article_column {
+	padding: 4px;
+}
+
+ul#mainlevel, ul.sections, ul#mainlevel.menu li {
+list-style: none;
+}
+
+/* Frontend Editing*/
+
+fieldset {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+legend {
+	margin: 0;
+	padding: 0 10px;
+}
+
+td.key {
+	border-bottom: 1px solid #eee;
+	color: #666;
+}
+
+/* Tooltips */
+
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+
+/* System Standard Messages */
+
+#system-message {
+	margin-bottom: 20px;
+}
+
+#system-message dd.message ul {
+	background: #C3D2E5 url(../../system/images/notice-info.png) 4px center no-repeat;
+}
+
+/* System Error Messages */
+
+#system-message dd.error ul {
+	color: #c00;
+	background: #E6C0C0 url(../../system/images/notice-alert.png) 4px center no-repeat;
+	border-top: 3px solid #DE7A7B;
+	border-bottom: 3px solid #DE7A7B;
+	margin: 0px;
+	padding-left: 40px;
+	text-indent: 0px;
+}
+
+/* System Notice Messages */
+
+#system-message dd.notice ul {
+	color: #c00;
+	background: #EFE7B8 url(../../system/images/notice-note.png) 4px center no-repeat;
+	border-top: 3px solid #F0DC7E;
+	border-bottom: 3px solid #F0DC7E;
+}
+
+.copyright {
+	font: 10px/14px Arial, Helvetica, Geneva, sans-serif;
+	color: #000;
+	margin: 0px auto;
+	text-align: center;
+}
+.copyright a {
+	display: block;
+	float: left;
+	width: 75px;
+	height: 12px;
+	text-indent: -6000em;
+	margin: 4px 0px 0px 4px;
+}
+
+
+/* @end */
