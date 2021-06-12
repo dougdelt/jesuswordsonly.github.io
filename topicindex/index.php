@@ -759,7 +759,7 @@ s5_qc_isValidEmail(email_str);
 </ul>
 <p><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1">Jesus' Words Only Website</span></p>
 <ul>
-<li><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1"><a href="http://websitegrader.com/site/www.jesuswordsonly.github.io/?source=email-WSG">Website Grader score on "Jesus Words Only"</a></span></li>
+<li><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1"><a href="http://websitegrader.com/site/jesuswordsonly.github.io/?source=email-WSG">Website Grader score on "Jesus Words Only"</a></span></li>
 <li><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1"><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1"><a href="http://www.alexa.com/">Search "Alexa" (on any website) for world ranking</a></span></span><hr /></li>
 </ul>
 <p><span style="font-size: large; font-family: 'times new roman', times;" data-mce-mark="1">Job, Book of</span></p>
